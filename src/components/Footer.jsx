@@ -17,7 +17,7 @@ const Footer = () => {
             <div className='bg-neutral-700 my-5 h-[1px] w-full'/>
             <div className='flex md:flex-row flex-col md:items-center justify-between'>
                 <p className='font-semibold text-gray text-xs'> Copyright @ 2024 Apple Inc. All right reserved.</p>
-                <p className='font-semibold text-blue text-xl'> Ahmed Reyyan</p>
+                <a href='https://www.linkedin.com/in/ahmed-reyyan-0568b3222/' className='font-semibold text-blue text-xl'> Ahmed Reyyan</a>
                 <div className='flex '>
                     {footerLinks.map((link,i)=>{
                       return  <p key={link} className='font-semibold text-gray text-xs'>
